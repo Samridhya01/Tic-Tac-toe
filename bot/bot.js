@@ -162,7 +162,7 @@ window.addEventListener('DOMContentLoaded', () => {
     const announce = (type) => {
         switch(type){
             case PLAYERO_WON:
-                announcer.innerHTML = 'Bot has Won,but you won my heart ❤️ ';
+                announcer.innerHTML = 'Samrat has Won,but you won my heart ❤️ ';
 
                 break;
             case PLAYERX_WON:

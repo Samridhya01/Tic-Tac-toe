@@ -1,7 +1,16 @@
 document.addEventListener('DOMContentLoaded', function(){
-    let tips = ['bhalo kora khalbi','all the best','tumi sudu amar'
-       
-    ]
+    let tips = [
+        'Take center first for max win lines',
+        'Choose corners for better setups',
+        'Create forks for two win chances',
+        'Block opponents fork moves',
+        'Control board with early center/corner',
+        'Use edge trap if second player',
+        'Avoid edge starts as first player',
+        'Learn key win patterns like center-corner',
+        'Force a draw if losing',
+        'Anticipate and limit opponents moves'
+      ];
     const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
     if (isMobile){
         const onlineButton = document.getElementById('online')
